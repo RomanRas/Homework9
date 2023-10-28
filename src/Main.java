@@ -35,8 +35,6 @@ public class Main {
             if (min > element) {
                 min = element;
             }
-        }
-        for (int element:arr) {
             if (max < element) {
                 max = element;
             }
