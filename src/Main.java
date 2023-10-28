@@ -23,6 +23,7 @@ public class Main {
         for (int element: arr) {
             sum += element;
         }
+        System.out.println(Arrays.toString(arr));
         System.out.println("Сумма трат за месяц составила " + sum + " рублей.\n");
     }
     public static void task2() {
@@ -39,6 +40,7 @@ public class Main {
                 max = element;
             }
         }
+        System.out.println(Arrays.toString(arr));
         System.out.println("Минимальная сумма трат за день составила " + min + " рублей. Максимальная сумма трат за день составила " + max + " рублей.\n");
     }
     public static void task3() {
@@ -51,6 +53,7 @@ public class Main {
             sum += element;
         }
         averageSpending = (double) sum / arr.length;
+        System.out.println(Arrays.toString(arr));
         System.out.println("Средняя сумма трат за месяц составила " + averageSpending + " рублей.\n");
     }
     public static void task4() {
